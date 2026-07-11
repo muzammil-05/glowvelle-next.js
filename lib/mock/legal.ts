@@ -18,7 +18,7 @@ export const PRIVACY_POLICY: LegalPageContent = {
   eyebrow: "Legal · Data Protection",
   breadcrumbLabel: "Privacy Policy",
   updated: "July 1, 2025",
-  contactEmail: "legal@glowvelle.com",
+  contactEmail: "glowvelle9@gmail.com",
   sections: [
     {
       id: "introduction",
@@ -66,14 +66,14 @@ export const PRIVACY_POLICY: LegalPageContent = {
       heading: "Your Rights",
       content: [
         "Depending on your location, you may have certain rights regarding your personal data, including the right to access, correct, or delete your personal information; the right to object to or restrict certain processing; and the right to data portability.",
-        "To exercise any of these rights, please contact us at legal@glowvelle.com. We will respond to your request within 30 days.",
+        "To exercise any of these rights, please contact us at glowvelle9@gmail.com. We will respond to your request within 30 days.",
       ],
     },
     {
       id: "contact-us",
       heading: "Contact Us",
       content: [
-        "If you have questions or concerns about this Privacy Policy or our data practices, please contact our Data Protection Officer at legal@glowvelle.com or write to us at 120 5th Avenue, New York, NY 10001.",
+        "If you have questions or concerns about this Privacy Policy or our data practices, please contact our Data Protection Officer at glowvelle9@gmail.com or write to us at 120 5th Avenue, New York, NY 10001.",
       ],
     },
   ],
@@ -84,7 +84,7 @@ export const TERMS_OF_SERVICE: LegalPageContent = {
   eyebrow: "Legal · Terms & Conditions",
   breadcrumbLabel: "Terms of Service",
   updated: "July 1, 2025",
-  contactEmail: "legal@glowvelle.com",
+  contactEmail: "glowvelle9@gmail.com",
   sections: [
     {
       id: "acceptance-of-terms",
@@ -190,7 +190,7 @@ export const AFFILIATE_DISCLOSURE: LegalPageContent = {
       heading: "FTC Compliance",
       content: [
         "In accordance with the FTC's guidelines on endorsements and testimonials, we clearly disclose our affiliate relationships on this page, in our footer, and at relevant points throughout the platform.",
-        "If you have any questions about our affiliate relationships or this disclosure, please contact us at affiliate@glowvelle.com.",
+        "If you have any questions about our affiliate relationships or this disclosure, please contact us at glowvelle9@gmail.com.",
       ],
     },
   ],

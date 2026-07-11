@@ -65,6 +65,6 @@ export const SOCIAL_LINKS = [
 ] as const;
 
 export const CONTACT = {
-  email: "hello@glowvelle.com",
+  email: "glowvelle9@gmail.com",
   address: "New York, NY 10001, USA",
 } as const;

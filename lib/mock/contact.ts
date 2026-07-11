@@ -19,14 +19,8 @@ export const CONTACT_INFO_ITEMS = [
   {
     id: "email",
     title: "Email Us",
-    info: "hello@glowvelle.com",
+    info: "glowvelle9@gmail.com",
     sub: "We reply within 24 hours",
-  },
-  {
-    id: "phone",
-    title: "Call Us",
-    info: "+1 (646) 555-0192",
-    sub: "Mon–Fri, 9am–6pm EST",
   },
   {
     id: "office",
