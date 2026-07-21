@@ -1,3 +1,5 @@
+import { GoogleAnalytics } from "@next/third-parties/google";
+
 import type { Metadata, Viewport } from "next";
 import { Playfair_Display, Poppins } from "next/font/google";
 
@@ -85,6 +87,7 @@ export default function RootLayout({
         >
           {children}
           <Toaster richColors closeButton position="top-center" />
+          <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID || ''} />
         </ThemeProvider>
       </body>
     </html>
