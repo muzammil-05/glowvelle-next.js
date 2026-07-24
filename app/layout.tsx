@@ -1,3 +1,5 @@
+import ClarityComponent from '@/components/Clarity';
+
 import { GoogleAnalytics } from "@next/third-parties/google";
 
 import type { Metadata, Viewport } from "next";
@@ -22,6 +24,21 @@ const poppins = Poppins({
   weight: ["300", "400", "500", "600", "700"],
   display: "swap",
 });
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="en">
+      <body>
+        <ClarityComponent />
+        {children}
+      </body>
+    </html>
+  );
+}
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

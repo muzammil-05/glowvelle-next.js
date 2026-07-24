@@ -1,0 +1,13 @@
+'use client';
+
+import { useEffect } from 'react';
+import Clarity from '@microsoft/clarity';
+
+export default function ClarityComponent() {
+  useEffect(() => {
+    const projectId = "xrhpp62m7r";
+    Clarity.init(projectId);
+  }, []);
+
+  return null;
+}
